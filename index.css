@@ -1,0 +1,218 @@
+
+
+.left{
+    margin-left: 270px;
+}
+.fon{
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 50px;
+}
+.top{
+    padding-top: 100px;
+}
+.tex{
+    padding-top: 140px;
+    font-weight: 400;
+}
+.tekst{
+    padding-top: 140px;
+    font-weight: 300;
+}
+.section{
+    padding-top: 100px;
+    font-size: 50px;
+}
+.logotip{
+    padding-top: 140px;
+}
+.blok{
+    padding-top: 150px;
+    font-weight: 100;
+    font-size: 50px;
+}
+.con{
+    padding-top: 50px;
+    color: #72787D;
+}
+.kard{
+    display: flex;
+    padding-left: 100px;
+}
+.block1{
+ 
+    margin-left: 50px;
+   
+}
+.oneText{
+    font-size: 22px;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+.twoText{
+    font-size: 19px;
+    color: #72787D;
+    padding-left: 50px;
+}
+.bigCar{
+    
+    right: 750px;
+    padding-top: 50px;
+}
+.block2{
+    border: 0px solid black;
+}
+.dos{
+    padding-top: 90px;
+}
+.Mitext{
+    color: #72787D;
+}
+.the{
+    font-size: 20px;
+}
+.kards1{
+    display: flex;
+}
+
+.h1text{
+    font-size: 18px;
+    
+}
+.pText{
+    font-size: 16px;
+}
+.kontainer{
+    border: 0px solid black;
+    display: flex;
+    background-color: #F6F8F9;
+    height: 100px;
+}
+.nadText{
+    font-size: 18px;
+}
+.btn{
+    padding-top: 20px;
+    width: 150px;
+    height: 50px;
+}
+.pngs{
+    width: 50px;
+    height: 50px;
+}
+.fon-img{
+    background: #212B31;
+    width: 100%;
+    height: 1174px;
+    margin-top: 150px;
+}
+.lefts{
+    padding-left: 20px;
+    padding-top: 150px;
+    
+}
+.otText{
+    font-size: 16px;
+    font-weight: 100;
+}
+.Yuel{
+    padding-top: 150px;
+    margin-top: 50px;
+}
+.textLite{
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 50px;   
+}
+.battans{
+    padding-top: 30px;
+    margin-left: 55px;
+}
+.black-text{
+    font-size: 18px;
+}
+.blackText2{
+    font-size: 16px;
+}
+.Black-kard{
+    padding-top: 70px;
+}
+.cate{
+    display: flex;
+
+}
+.categories{
+    border: 0px solid black;
+}
+.beck{
+    font-size: 30px;
+}
+.Textled{
+    padding-top: 150px;
+}
+.textPlus{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.logomax{
+    margin: 70px;
+    padding-top: 105px;
+}
+.logocon{
+    margin: 70px;
+    padding-top: 105px;
+}
+.logo50{
+    margin: 70px;
+    padding-top: 105px;
+}
+.logopro{
+    padding-top: 70px;
+}
+.gotext{
+    font-size: 35px;
+    padding-top: 120px;
+}
+.city{
+    border: 0px solid black;
+    background-image: url(./images/banners.png);
+    width: 1056px;
+    height: 466px;
+}
+.key{
+    font-size: 15px;
+}
+.number{
+     margin-top: 50px; 
+     border: 1px solid rgb(151, 134, 196);
+     text-align: center;
+}
+.click{
+    margin-top: 65px;
+}
+.futer{
+    border: 0px solid black;
+    margin:55px;
+}
+a{
+    font-size: 20px;
+}
+.nashText{
+    font-size: 25px;
+}
+.futer2{
+    padding-top: 100px;
+    border: 0px solid black;
+    display:flex ;
+}
+.futer3{
+    padding-top: 100px;
+    border: 0px solid black;
+}
+.chiziq{
+    position: absolute;
+    border: 1px solid rgb(63, 122, 170);
+    width: 1300px;
+    margin-top: 60px;
+}

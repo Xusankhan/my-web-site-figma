@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <style>
+      *{
+        margin: 0;
+      }
+      .loader{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb( 0, 0, 0, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+
+.wrapper {
+  display: flex;
+  column-gap: 10px;
+}
+.wrapper .dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #008ae6;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: animate 1s ease-in-out infinite alternate;
+}
+.dot:nth-child(1) {
+  animation-delay: -0.25s;
+}
+.dot:nth-child(2) {
+  background: #e60000;
+  animation-delay: -0.5s;
+}
+.dot:nth-child(3) {
+  background: #ffcc00;
+  animation-delay: -0.75s;
+}
+.dot:nth-child(4) {
+  background: #008800;
+  animation-delay: -1s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+
+
+Resources
+
+    </style>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+      <div class="wrapper loader">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+  
+  
+    <nav class="navbar navbar-expand-sm ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="logo">
+            СтройКонтроль
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 left">
+                <li class="nav-item">
+                <a href="#" class="nav-link">Главная</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link">О нас</a> 
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link">Продукция</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link">Процесс</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link">Надёжность</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link">Клиенты</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link">Связаться с нами</a>
+                </li>
+            </ul>
+              <a class="btn btn-dark" >Заказать демо</a>
+          </div>
+        </div>
+      </nav>
+      <div class="row text-center justify-content-center">
+        <h1 class="col-8 fon">
+            Умная доставка материалов для сложных строительных площадок
+        </h1>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-4 p-4">
+            <a class="btn btn-dark" >Заказать демо</a>
+            <a class="btn btn-outline-dark" >Заказать демо</a>
+        </div>
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-11 p-4">
+           <img src="./images/Rectan.png" alt="">
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-9 p-4">
+           <img src="./images/Rectangle (1).png" alt="">
+        </div>
+      </div>
+
+
+      <div class="row  g-5 text-center top  ">
+        <div class="col">
+          <div class="">
+            <img src="./images/analiz.png" class="card-img-center p-4 alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Повышение эффективности</h5>
+              <p class="card-text">Эффективные проекты стоят дешевле 
+                и завершаются в срок.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+            <img src="./images/Frame (1).png" class="card-img-center p-4 alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Снижение потерь</h5>
+              <p class="card-text">Тщательно отслеживайте движение стройматериалов, чтобы избежать краж и повреждений.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+            <img src="./images/Frame (2).png" class="card-img-center p-4" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Повышение безопасности</h5>
+              <p class="card-text">Обеспечьте здоровье и благополучие людей, работающих на вашей площадке.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center justify-content-center">
+        <h2 class="col-8 tex">Строительство - это хаос</h2>
+        <p class="col-8">Хаос может быть удивительной творческой силой, воздвигающая новые здания из пыли.
+          Хаос вызывает несчастные случаи, задержки и потери. Он вводит проекты в стресс и разочарование.
+          Это означает, что вы действительно не контролируете ситуацию.</p>
+          <img src="./images/Rectangle.png" alt="">
+      </div>
+
+      <div class="row text-center justify-content-center">
+        <h1 class="col-10 tekst ">Пора навести порядок на вашей стройплощадке и взять под контроль свой проект</h1>
+      </div>
+      
+      <div class="row text-center justify-content-center ">
+        <img class="col-10 section" src="./images/section 5.png" alt="">      
+      </div>
+
+      <div class="row text-center justify-content-center display-flex logotip">
+        <img class="col-2" src="./images/besix (1).png" alt="">
+        <img class="col-2" src="./images/besix (2).png" alt="">
+        <img class="col-2" src="./images/skanska (4).png" alt="">
+        <img class="col-2" src="./images/skanska (3).png" alt="">
+        <img class="col-2" src="./images/skanska (2).png" alt="">
+        <img class="col-3" src="./images/skanska (1).png" alt="">
+      </div>
+
+      <div class="row text-center justify-content-center">
+        <h1 class="col-6 blok">Что такое СтройКонтроль?</h1>
+        <h5 class="col-8  con">СтройКонтроль - это интеллектуальная система управления доставкой, предоставляющая
+         информацию и контроль материалов на сложных строительных площадках в режиме реального времени.
+        </h5>
+      </div>
+
+
+      <div class=" row kard">
+        <div class=" col-6 text-start justify-content-start block1 ">
+          <h1 class="col-12 oneText">Отслеживайте доставку по всей цепочке поставок</h1>      
+          <h4 class="col-12 twoText ">От поставщика до субподрядчика - вы всегда знаете, где находятся ваши материалы,
+          благодаря чему обычные отходы уходят в прошлое и сокращаются несчастные случаи на месте.</h4>
+        </div>
+        <div class="col-4 block2">
+          <img class="col-11 bigCar" src="./images/stroy (3).png" alt="">
+        </div>
+      </div>
+
+      <div class=" row kard p-5">
+        <div class=" col-4  block1 ">
+          <img src="./images/stroy (2).png" alt="">
+        </div>
+        <div class="col-6 text-start justify-content-start block2">
+          <h1 class="col-12 oneText">Оптимизируйте и контролируйте свое прибытие на место</h1>      
+          <h4 class="col-12 twoText ">Транспортные средства доставки прибывают в фиксированные промежутки времени в заранее назначенные отсеки,
+             где разгрузочное оборудование готово и ждет их.</h4>
+        </div>
+      </div>
+
+      <div class=" row kard">
+        <div class=" col-6 text-start justify-content-start block1 ">
+          <h1 class="col-12 oneText">Возьмите под контроль данные в режиме реального времени</h1>      
+          <h4 class="col-12 twoText ">Интеллектуальная отчетность дает вам возможность принимать решения в зависимости от того, как обстоят дела в данный момент.
+           Больше никаких ручных отчетов по заливке бетона или ежемесячной проверки 10.000 накладных со счетами, все это доступно онлайн без каких-либо усилий.</h4>
+        </div>
+        <div class="col-4 block2">
+          <img class="col-12 bigCar" src="./images/stroy (1).png" alt="">
+        </div>
+      </div>
+
+      <div class="row text-center justify-content-center">
+        <h1 class="col-5 dos">Доставка стала проще</h1>
+      </div>
+      <div class="row text-center justify-content-center">
+      <h4 class="col-8 p-3 Mitext ">Мы позаботимся обо всех ваших различных поставках и их многочисленных специализированных 
+        требованиях к разгрузке.</h4>
+      </div>
+
+      <div class="row text-start p-5">
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="./images/Frame.png" class="p-3" alt="">
+            </div>
+            <div class="col-10">
+              <h5 class="card-title p-3">Бетон</h5>
+              <p class="card-text p-3">Поставки бетона точно планируются, а его состояние контролируется, 
+              что обеспечивает максимально возможное время для установки.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="./images/Waste removal.png" class="p-3" alt="">
+            </div>
+            <div class="col-10">
+              <h5 class="card-title p-3">Утилизация отходов</h5>
+              <p class="card-text p-3">Отходы контролируются и сортируются, а заполненность
+               контейнеров отслеживается в цифровом виде.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="./images/Formwork.png" class="p-3" alt="">
+            </div>
+            <div class="col-10">
+              <h5 class="card-title p-3">Опалубка</h5>
+              <p class="card-text p-3">Вся опалубка отслеживается от прибытия до отправления, а ее состояние
+               контролируется, что сводит к минимуму потери и повреждения.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="./images/Precasts.png" class="p-3" alt="">
+            </div>
+            <div class="col-10">
+              <h5 class="card-title p-3">Сборные панели</h5>
+              <p class="card-text p-3">Сборные панели прибывают по очереди, их хранение на месте отслеживается,
+               а их установка планируется и контролируется.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="./images/Frame.png" class="p-3" alt="">
+            </div>
+            <div class="col-10">
+              <h5 class="card-title p-3">Фасады</h5>
+              <p class="card-text p-3">Элементы фасада поступают последовательно, их сборка контролируется, а 
+              перемещение отслеживается.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="./images/Fit-out.png" class="p-3" alt="">
+            </div>
+            <div class="col-10">
+              <h5 class="card-title p-3">Отделка</h5>
+              <p class="card-text p-3">Материалы поступают точно в срок, маркируются и детально отслеживаются
+               для установки.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="./images/Scaffolding.png" class="p-3" alt="">
+            </div>
+            <div class="col-10">
+              <h5 class="card-title p-3">Строительные леса</h5>
+              <p class="card-text p-3">Строительные леса отслеживаются от получения до хранения, использования
+               и возврата, поэтому всегда ясно, что на месте и где..</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="./images/kar.png" class="p-3" alt="">
+            </div>
+            <div class="col-10">
+              <h5 class="card-title p-3">Оборудование</h5>
+              <p class="card-text p-3">Оборудование и операторы гарантированно доступны в случае необходимости, а 
+              их рабочее состояние отслеживается.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="./images/MEP.png" class="p-3" alt="">
+            </div>
+            <div class="col-10">
+              <h5 class="card-title p-3">Электрика и сантехника</h5>
+              <p class="card-text p-3">Доставка осуществляется в точной последовательности для сложной установки,
+               что сокращает или устраняет необходимость в хранении.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row  text-center justify-content-center">
+        <h1 class="col-6 p-5"> Надёжность</h1>
+        <div class="row  text-center justify-content-center"></div>
+        <p class="col-8 the">Благодаря надёжному строительству выигрывают все - муниципальные органы выполняют свои обязанности перед гражданами,
+         инвесторы получают сертификаты своих проектов, а генеральные подрядчики получают повышенную репутацию.</p>
+      </div>
+
+      <div class="row text-center justify-content-center ">
+        <div class="col-4 p-5 text-center justify-content-center">
+          <img src="./images/icon (3).png" alt="">
+          <h1 class="col-12 h1text">Сниженное загрязнение</h1>
+          <p class="col-12 pText">При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов CO2. Выбрасываемый CO2 контролируется, что позволяет 
+          ставить цели и вносить ощутимые улучшения.</p>
+        </div>
+
+        <div class="col-4 p-5 text-center justify-content-center">
+          <img src="./images/icon (2).png" alt="">
+          <h1 class="col-12 h1text ">Улучшенное управление отходами</h1>
+          <p class="col-12">Упрощается сортировка отходов, автоматизируется утилизация отходов, а поврежденные материалы при необходимости используются повторно, что снижает 
+            затраты и стимулирует переработку и повторное использование.</p>
+        </div>
+        <div class="col-4 p-5 text-center justify-content-center">
+          <img src="./images/icon (1).png" alt="">
+          <h1 class="col-12 h1text ">Улучшенное влияние на общество</h1>
+          <p class="col-12">Уменьшаются проблемы с дорожным движением и шумовое загрязнение, что улучшает жизнь местного сообщества. Улучшенное обращение с материалами и хранение
+           означает, что рабочие также лучше защищены.</p>
+        </div>
+      </div>
+
+      <div class="row text-center justify-content-center">
+        <div class="col-11  text-center justify-content-center align-items-center kontainer">
+          <img class=" pngs" src="./images/help.png" alt="">
+          <h1 class="col-8 nadText">Надёжная конструкция СтройКонтроль входит в стандартную комплектацию.</h1>
+          <button class="btn-light btn">Подробнее</button>
+
+        </div>
+      </div>
+
+      
+      <div class="fon-img">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <ul class=" Yuel justify-content-center">
+                <h1 class=" text-light textLite">Создан для строительства </h1>
+                <li class="col-12 text-light">Хорошо виден в любых условиях 
+                  <p class="col-8 otText">Независимо от того, солнечно или темно, найдется подходящий режим экрана</p>
+                </li>
+                <li class="col-12 text-light">Поддержка международных языков
+                  <p class="col-12  otText">На современной стройке работают люди со всего мира. Язык не является проблемой для СтройКонтроля.</p>
+                </li>
+                <li class="col-12 text-light">Работает на любом устройстве - мобильном телефоне, планшете, ноутбуке
+                  <p class="col-11  otText">Люди на разных должностях используют разные устройства. СтройКонтроль автоматически настраивается в соответствии с 
+                    требованиями. Вы также можете проецировать панели мониторинга живого проекта на настенные экраны.</p>
+                </li>
+              </ul>
+              <div class="row text-start ">
+                <div class="battans">
+                      <a class="btn btn-light batn" href="">Заказать демо</a>
+                      <a class="btn text-light border-light batn2" href="">Заказать демо</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="./images/white.png" class=" postion-absolute end-0 lefts" alt="">
+            </div>
+          </div>
+        </div>
+
+            <div class="Black-kard">
+              <div class="row text-center justify-content-center kards1">
+                <div class="col-4 p-5 text-center justify-content-center Blok2">
+                  <img src="./images/invest.png" alt="">
+                  <h1 class="col-12 text-light p-2 black-text">Привлечение субподрядчика</h1>
+                  <p class="col-12 text-light blackText2">Для выполнения этой работы вам понадобятся ваши субподрядчики.
+                    У нас есть проверенный и надежный процесс для этого.</p>
+                </div>
+                <div class="col-4 p-5 text-center justify-content-center Blok2">
+                  <img src="./images/Key suppliers engaged.png" alt="">
+                  <h1 class="col-12 text-light p-2 black-text ">Привлечены ключевые поставщики</h1>
+                  <p class="col-12 text-light blackText2">У нас уже есть ключевые поставщики, использующие программное обеспечение,
+                    что обеспечивает еще больший контроль и прозрачность информации.</p>
+                </div>
+                <div class="col-4 p-5 text-center justify-content-center Blok2">
+                  <img src="./images/100% Compliance.png" alt="">
+                  <h1 class="col-12 text-light p-2 black-text ">100% соответствие</h1>
+                  <p class="col-12 text-light blackText2">У нас есть безупречный список обеспечения соответствия требованиям, которые необходимы
+                    вам для успешного выполнения проекта с помощью СтройКонтроль.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+            
+
+            <div class="row text-start p-5 justify-content-center cate">
+              <div class=" col-6  categories ">
+                <h1 class="col-8 beck">Как с нами работать</h1>
+                <h6 class="col-8"> Начать работу со СтройКонтроль легко, достаточно заказать демо-версию.</h6>
+                <img class="col-10" src="./images/master.png" alt="">
+              </div>
+               <div class=" col-6  categories ">
+                <div class="row align-items-center">
+                  <div class="col">
+                    <p class="number">
+                      1
+                    </p>
+                  </div>
+                  <div class="col-11">
+                    <h1 class="col-8 beck">Заказать демо</h1>
+                    <h6 class="col-12"> Вы увидите презентацию, в которой подробно объясняется, как работает СтройКонтроль для 
+                      решения задач строительной логистики в таких сложных проектах, как ваш.</h6>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <p class="number">
+                      2
+                    </p>
+                  </div>
+                  <div class="col-11">
+                    <h1 class="col-8 beck">Согласование сделки</h1>
+                    <h6 class="col-12">Мы обсудим ваш строительный проект и предложим реализацию СтройКонтроль, которая идеально 
+                    соответствует вашим потребностям и будет иметь для вас ценность.</h6>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <p class="number">
+                      3
+                    </p>
+                  </div>
+                  <div class="col-11">
+                    <h1 class="col-8 beck">Подготовка</h1>
+                    <h6 class="col-12"> Мы полностью обучаем вашу команду тому, как использовать систему, с помощью онлайн-видеоуроков
+                    и обеспечиваем постоянную всестороннюю поддержку.</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p class="number">
+                      4
+                    </p>
+                  </div>
+                  <div class="col-11">
+                    <h1 class="col-10 beck">Внедрение и интеграция</h1>
+                    <h6 class="col-12">Мы настраиваем программное обеспечение так, чтобы оно точно моделировало вашу площадку, а затем помогаем вам интегрировать
+                     его с программным обеспечением Business Intelligence для получения новых мощных аналитических данных.</h6>
+                </div>
+                </div>
+                <div class=" p-5 bat">
+               <a class="btn btn-dark batn " href="">Заказать демо</a>
+               <a class="btn text-dark border-dark  batn2" href="">Заказать демо</a>
+               </div>
+              </div>
+            </div>
+
+            <div class="row text-center justify-content-center">
+                <h1 class="col-8 Textled">Почему нужно выбрать нас?</h1>
+                <p class="col-12 textPlus">В строительной логистике всегда есть возможности для улучшения.</p>
+            </div>
+            <div class="row text-center justify-content-start">
+              <div class="col-4">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row text-start justify-content-start">
+                      <div class="col-2">
+                        <img src="./images/ikons.png" class="p-3" alt="">
+                      </div>
+                      <div class="col-10 p-2">
+                        <h5 class="card-title p-1">Отмеченное наградами О</h5>
+                        <p class=" card-text p-1">Всемирно известное программное обеспечение, признанное государственными 
+                          учреждениями, инновационными группами и техническими организациями.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="row  text-start justify-content-start">
+                      <div class="col-2">
+                        <img src="./images/ikons (4).png" class="p-3" alt="">
+                      </div>
+                      <div class="col-10 p-2">
+                        <h5 class="card-title p-1">Большой потенциал</h5>
+                        <p class="card-text p-1">Входит в топ-25 самых многообещающих стартапов ConTech по версии Cemex Ventures,
+                          Moscow Consulting Group, BuiltWorld и PwC.</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12">
+                      <div class="row  text-start justify-content-start">
+                        <div class="col-2">
+                          <img src="./images/ikons (3).png" class="p-3" alt="">
+                        </div>
+                      <div class="col-10 p-2">
+                        <h5 class="card-title p-1">Выбор лидеров рынка</h5>
+                        <p class="card-text p-1">Рекомендуемый поставщик технологий для 3 из 10 ведущих генеральных подрядчиков в Европе</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="row  text-start justify-content-start">
+                      <div class="col-2">
+                        <img src="./images/ikons (2).png" class="p-3" alt="">
+                      </div>
+                      <div class="col-10 p-2">
+                        <h5 class="card-title p-1">Устойчивое развитие и безопасность</h5>
+                        <p class="card-text p-1">Способствует снижению выбросов CO2 и повышает безопасность на месте</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-8">
+                <img src="./images/100% Compliance.png" alt="">
+              </div>
+            </div>  
+
+              <div class="row text-center justify-content-center">
+                <img class="col-2 logomax" src="./images/banner.png" alt="">
+                <img class="col-2 logocon " src="./images/banner (3).png" alt="">
+                <img class="col-2 logo50" src="./images/banner (2).png" alt="">
+              </div>
+              <div class="row text-center justify-content-center">
+                <img class="col-3 logopro" src="./images/banner (1).png" alt="">
+                <div class="row text-center justify-content-center"">
+                  <p class="col-2">2018 - 50 лучших стартапов ЕС PropTech</p>
+                </div>
+              </div>
+
+              <div class="row text-center justify-content-center p-5">
+                <div class="col-12 city">
+                  <div class="row justify-content-center">
+                    <h1 class="col-8 gotext">Готовы оптимизировать логистику доставки для вашего сложного проекта?</h1>
+                  </div>
+                  <div class="click">
+                  <a class="btn btn-dark" href="">Заказать демо</a>
+                  <a class="btn col-2 btn-light" href="">Связаться с нами</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row  text-center justify-content-center ">
+                <div class="col-2 text-start justify-content-start futer">
+                <img class="col-2 logo2" src="./images/logo.png" alt="logo">
+                СтройКонтроль
+                <div class="row text-start justify-content-start">
+                <a class="p-2 text-decoration-none text-dark" href=""> г. Москва</a>
+                <a  class=" p-2 text-decoration-none text-dark" href="">Пресненская наб., 88, оф. 527</a>
+                <a class=" p-2 text-decoration-none text-dark" href="">info@stroycontrol.ru</a>
+                <a class=" p-1 text-decoration-none text-dark" href="">+7 (945) 123-45-67</a>
+                </div>
+              </div>
+              <div class="col-2 text-start justify-content-start futer">
+                <div class="row text-start justify-content-start">
+                <p class=" nashText" >Наш продукт</p>
+                <a  class=" p-2 text-decoration-none text-dark" href="">Процесс</a>
+                <a class=" p-1 text-decoration-none text-dark">Продукция</a>
+                </div>
+              </div>
+
+              <div class="col-2 text-start justify-content-start futer">
+ 
+                <div class="row text-start justify-content-start">
+                <p class=" nashText">Обслуживание</p>
+                <a  class=" p-2 text-decoration-none text-dark" href="">Клиенты</a>
+                <a class=" p-1 text-decoration-none text-dark" href="">Надёжность</a>
+                </div>
+              </div>
+
+              <div class="col-2 text-start justify-content-start futer">
+                <div class="row text-start justify-content-start">
+                <p class=" nashText">Компания</p>
+                <a  class=" p-2 text-decoration-none text-dark" href="">О нас</a>
+                <a class=" p-1 text-decoration-none text-dark" href="">Связаться с нами</a>
+                </div>
+              </div>
+
+              </div>
+
+              <div class="chiziq"></div>
+              <div class="row text-start justify-content-start">
+                <div class="col-6 text-start futer2">
+                <p class="col-12">© 2020 СтройКонтроль, Все права защищены.</p>
+              </div>
+                <div class="col-6 text-end futer3">
+                  <p class="col-12">Политика конфиденциальности</p>
+                </div>
+              </div>
+
+              
+
+            
+    
+    </div>
+
+
+-
+
+
+
+
+
+     <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
